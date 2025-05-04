@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "tunnel": "ssh -p 443 -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -t -R0:localhost:3000 ap.a.pinggy.io x:https"
+    "tunnel": "ssh -p 443 -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -t -R0:localhost:3000 a.pinggy.io x:https"
   },
   "dependencies": {
     "clsx": "^2.1.1",
